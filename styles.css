@@ -62,5 +62,18 @@ p {
   box-shadow: 0 8px 20px rgba(255, 0, 0, 0.959);
   background-color: aquamarine;
   border-radius: 150px;
-  
 }
+
+/* questions 
+1. what is the difference between transform and transition?
+~ transform allows you to instantly changes the shape, size, position, or rotation of an element in 2D or 3D space.
+~ transition allows you to create smooth animations when changing CSS properties over a specified duration.
+
+2. why do you need both a transition defined and a property change (like trasform) to see an animation?
+~ transition defines how the change should happen (duration, easing, etc.), while the property change (like transform) specifies what change should occur. Without both, there would be no animation effect.
+
+3.Which card animation do you like the most, an what transform functin did you use?
+
+~ I like card four the most because of its 3D effect using perspective, rotateX transform functions, and box-shadow effect.
+
+*/
