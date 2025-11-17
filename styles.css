@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Card layout */
+
+.card-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  /* animate transform and box-shadow changes */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* card one- slide up and down */
+.card-one:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* card two- rotate sligtly and scale */
+.card-two:hover {
+  transform: rotate(3deg) scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*  card three- skew and move up */
+.card-three:hover {
+  transform: translateY(-8px) skewY(-5deg);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* card four-? */
+.card-four:hover {
+  transform: perspective(600px) rotateX(10deg) scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.959);
+  background-color: aquamarine;
+  border-radius: 150px;
+  
+}
